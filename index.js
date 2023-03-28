@@ -124,10 +124,6 @@ const dataSets = {
         'Alexbelog',
         'Sixaxix',
         'OtezBogolubov',
-    ],
-    corona: [
-        'Тест положительный',
-        'Тест отрицательный',
     ]
 };
 let currentDataSet = 'inventory',
