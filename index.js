@@ -122,8 +122,6 @@ const dataSets = {
     ],
     streamers: [
         'Alexbelog',
-        'Sixaxix',
-        'OtezBogolubov',
     ]
 };
 let currentDataSet = 'inventory',
