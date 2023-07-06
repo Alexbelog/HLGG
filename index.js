@@ -359,7 +359,7 @@ function getImageURI(index) {
     let result = 'images/items/000.png',
         mapping = []
     ;
-    switch (currentDataSet) {
+   /* switch (currentDataSet) {
         case "buffs":
             mapping = [
                 5,
@@ -407,7 +407,7 @@ function getImageURI(index) {
                 70,
             ];
             result = 'images/items/0' + ('0' + (mapping[index])).slice(-2) + '.png';
-            break;
+            break; */
 
         case "items":
             mapping = [
