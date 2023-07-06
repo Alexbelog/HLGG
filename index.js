@@ -38,7 +38,7 @@ const dataSets = {
         'Ведьмаку дали автомат',
         'Эту игру смогла бы пройти даже моя бабка..',
     ],
-/* supeshiaru: [
+   supeshiaru: [
         'Чуйка на говно',
         'Выбор Бумера',
         'Выбор Зумера',
@@ -88,7 +88,7 @@ const dataSets = {
         'Проклятая жилетка Вассермана',
         'Шиш кебаб',
     ],
- */ coin: [
+   coin: [
         'Орёл',
         'Решка',
         'Орёл',
@@ -311,7 +311,7 @@ class PresetOnlyDebuffs extends Preset {
 class Presets {
     constructor() {
         this._presets = {
-            /*items: [
+            items: [
                 new PresetAll(),
                 new PresetOnlyBuffs(),
                 new PresetOnlyDebuffs(),
@@ -320,7 +320,7 @@ class Presets {
             supeshiaru: [
                 new PresetAll(),
             ],
-            */
+            
             streamers: [
                 new PresetAll(),
             ],
