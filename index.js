@@ -101,9 +101,9 @@ const dataSets = {
         'Решка',
         'Ребро!',
     ],
- /* streamers: [
+   streamers: [
         'Alexbelog',
-    ] */
+    ] 
 };
 let currentDataSet = 'inventory',
     editedDataSets = {};
