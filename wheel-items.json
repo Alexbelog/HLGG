@@ -1,9 +1,9 @@
 [
    {
-      "image":"/IMG_2841.png",
-      "title":"Плохой квиксейв",
+      "image":"/images/items/001.png",
+      "title":"Аук фильмовой",
       "type":"Разовое Событие",
-      "description":"Получи +игру на текущий сегмент.",
+      "description":"Стример проводит 1 фильмовой аук.",
       "charge":null,
       "limit":null,
       "color":"#93979f",
