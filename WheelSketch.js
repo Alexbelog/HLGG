@@ -10,6 +10,34 @@ function WheelSketch(_p5) {
             startAnimation();
         }
     ;
+    const dataSets = {
+    items: [
+        'foo',
+        'bar',
+    ],
+    coin: [
+        {title: 'Орёл',  image: '/coins/russia-100-rubles-1993-ob.png'},
+        {title: 'Решка', image: '/coins/russia-100-rubles-1993-rev.png'},
+        {title: 'Орёл',  image: '/coins/russia-100-rubles-1993-ob.png'},
+        {title: 'Решка', image: '/coins/russia-100-rubles-1993-rev.png'},
+        {title: 'Орёл',  image: '/coins/russia-100-rubles-1993-ob.png'},
+        {title: 'Решка', image: '/coins/russia-100-rubles-1993-rev.png'},
+        {title: 'Орёл',  image: '/coins/russia-100-rubles-1993-ob.png'},
+        {title: 'Решка', image: '/coins/russia-100-rubles-1993-rev.png'},
+        {title: 'Орёл',  image: '/coins/russia-100-rubles-1993-ob.png'},
+        {title: 'Решка', image: '/coins/russia-100-rubles-1993-rev.png'},
+        {title: 'Ребро', image: '/coins/coin-gurt.png'},
+    ],
+};
+
+loadJsonData('wheel-items.json')
+    .then(json => {
+        dataSets.items = toDataSet(json);
+    })
+    .catch(error => {
+        console.error(error);
+    })
+;
     let data = [],
         videosList = [
             'videos/14278244937910.webm',
